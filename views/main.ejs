@@ -1,0 +1,30 @@
+<%- include('sm/header') -%>
+    <div class="h1-div">
+        <h1>Lenta</h1>
+    </div>
+        <% a.forEach(function(post){ %>
+
+        <div class="ins-main-main">
+            <div class="block">
+                <div class="logo">
+                    <img class="img" width="100px" height="100px">
+
+                    <h1><%=post.PosterName %></h1>
+                </div>
+
+                <div class="impor">
+                    <div class="tittle">
+                        <h1><%=post.tittle %></h1>
+                    </div>
+
+                    <div class="content">
+                        <p><%=post.content %></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        <% }) %>
+    </div>
+    
+<%- include('sm/footer') -%>

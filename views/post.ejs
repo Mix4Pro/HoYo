@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Post</title>
+</head>
+<body>
+    <div class="main">
+        <h1><%=b %></h1>
+        <div class="center">
+            <div class="ins-main">
+                <h1>Post</h1>
+                <form action="/post" method="POST">
+                    <select name="type" id="">
+                        <option value="food">Food</option>
+                        <option value="sport">Sport</option>
+                        <option value="money">Money</option>
+                    </select><br><br>
+                    <input type="text" name="tittle" placeholder="Write your tittle"><br><br>
+                    <input type="file" name="image" class="file"><br><br>
+                    <input type="text" name="content" placeholder="Write your Content"><br><br> 
+                    
+                    <div class="div-btn">
+                        <button type="submit">
+                            <span class="btn-span-1">Submmit</span>
+                            <span class="btn-span-2">Click!</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

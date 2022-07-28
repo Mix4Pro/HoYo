@@ -1,0 +1,170 @@
+body{
+    background: linear-gradient(135deg, cyan, rgb(226, 225, 225));  
+    background-repeat: no-repeat;
+    height: auto;
+    min-height: 94vh;
+    padding: 15px;
+}
+
+button{
+    background-color: transparent;
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+h1{
+    font-family: sans-serif;
+}
+
+
+input{
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid gray;
+}
+
+select{
+    width: 270px;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+button{
+    background: linear-gradient(135deg, cyan, rgb(226, 225, 225));  
+    border: 1px solid #e5e5e5;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    vertical-align: middle;
+}
+
+p{
+    font-size: 20px;
+}
+
+button:hover .btn-span-2{
+    display: block;
+    cursor: pointer;
+}
+
+button:hover .btn-span-1{
+    display: none;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+/* ---------------------------------- */
+
+
+.ins-main{
+    background-color: #fff;
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+    margin-top: 100px;
+    border-radius: 20px;    
+    text-align: center;
+}
+
+.greetings{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.file{
+    background-color: transparent;
+    border: 1px solid gray;
+    width: 250px;
+}
+
+.div-btn{
+    border-top: 1px solid #000;
+    padding-top: 5px;
+}
+
+.btn-span-2{
+    display: none;
+}
+
+.div-create{
+    margin-top: 20px;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.h1-div{
+    display: flex;
+    justify-content: center;
+}
+.head-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+}
+
+.head-main .left h1{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.ins-main-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.block{
+    width: 60%;
+    background-color: #fff;
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    word-wrap:break-word;
+}
+
+.logo{
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.logo h1{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.tittle{
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#hidden-err{
+    display: none;
+}
+
+#hidden-err p{
+    color: #ff0000;
+    font-family: sans-serif;
+}

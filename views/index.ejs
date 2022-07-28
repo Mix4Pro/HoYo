@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Sign-in</title>
+</head>
+<body>
+    <div class="main">
+        <div class="center">
+            <div class="ins-main">
+                <div class="greetings">
+                    <h1>Welcome To HoYogram !</h1>
+                </div>
+                <form action="/" method="POST">
+                    <input type="text" name="username" placeholder="Write your username"><br><br>
+                    <input type="password" name="password" placeholder="Write your password"><br><br>
+
+                    <div id="hidden-err">
+                        <p>Your username / password is incorrect</p>
+                    </div>
+    
+                    <button type="submit">Submmit</button>
+                </form>
+                <div class="div-create">
+                    <a id="create">Create an account</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("create").onclick = function () {
+        location.href = "/registration";
+        };
+    </script>
+</body>
+</html>
